@@ -35,3 +35,32 @@ Simply open `frontend/index.html` in your browser.
 
 - WebRTC signaling is basic and for demo purposes.
 - For production: add authentication, improve signaling logic, host frontend with backend, secure MongoDB, etc.
+
+
+
+collab-whiteboard/
+├── backend/
+│   ├── app/
+│   │   ├── main.py
+│   │   ├── models.py
+│   │   ├── schemas.py
+│   │   ├── crud.py
+│   │   ├── signaling.py
+│   │   ├── auth.py
+│   │   ├── db.py
+│   │   ├── config.py
+│   │   └── utils.py
+│   └── requirements.txt
+├── frontend/
+│   ├── public/
+│   │   └── index.html
+│   ├── src/
+│   │   ├── app.js
+│   │   ├── webrtc.js
+│   │   ├── canvas.js
+│   │   └── api.js
+│   └── package.json
+├── README.md
+├── .env.example
+└── demo/
+    └── demo.mp4
